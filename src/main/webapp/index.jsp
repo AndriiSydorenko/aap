@@ -9,5 +9,6 @@
     <body>
     <h2>Hello</h2>
 	<input type="button"  onclick="location.href='/aap/articles/all'" value="See the list" >
+
 </body>
  </html>

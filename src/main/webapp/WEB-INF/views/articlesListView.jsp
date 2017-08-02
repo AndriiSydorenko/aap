@@ -14,6 +14,7 @@
     <h2>${message}</h2>
     <input type="button"  onclick="location.href='/aap/articles/all'" value="All">
     <input type="button"  onclick="location.href='/aap/articles/java'" value="JAVA">
+    <input type="button"  onclick="location.href='/aap/login'" value="Login">
     <table border="1">
         <tr>
             <th>Article Id</th>

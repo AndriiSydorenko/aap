@@ -64,6 +64,8 @@ public class ArticleController {
         return "editArticle";
     }
 
+
+
     @RequestMapping(method = RequestMethod.GET, value = "/delete/{id}")
     public String deleteArticle(@PathVariable("id") int articleId) {
         articleDao.DeleteArticle(articleId);
